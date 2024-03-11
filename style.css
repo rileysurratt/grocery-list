@@ -61,3 +61,8 @@ div {
     text-align: left;
     display: inline-block;
 }
+
+img {
+    width: 200px;
+    display: inline-flex;
+}
