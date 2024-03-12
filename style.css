@@ -20,8 +20,12 @@ h3 {
     color: #556B2F;
 }
 
+/* section {
+    display: inline-block;
+} */
+
 .flex-container {
-    display: inline-flex;
+    display: inline-block;
 
 }
 
@@ -30,9 +34,9 @@ h3 {
     border: 2px solid gray;
 }
 
-.flex-child:first-child {
+/* .flex-child:first-child {
     margin-right: 20px;
-}
+} */
 
 .category {
 
@@ -44,10 +48,10 @@ h3 {
     margin: 5px;
 }
 
-div {
+/* div {
 
-    display: inline-flexbox;
-}
+    display: inline-block;
+} */
 
 .box {
 
@@ -62,7 +66,12 @@ div {
     display: inline-block;
 }
 
-img {
-    width: 200px;
-    display: inline-flex;
+.image1 {
+    display: inline-block;
+    height: auto;
+}
+
+.image2 {
+    display: inline-block;
+    margin-top: 200;
 }
